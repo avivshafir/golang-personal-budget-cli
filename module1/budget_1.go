@@ -3,7 +3,7 @@ package module1
 // Budget stores budget information
 type Budget struct {
 	// Amount stores the budget amount
-	Max float64
+	Max float32
 	// Currency stores the budget currency
 	Items []Item
 }
@@ -13,5 +13,5 @@ type Item struct {
 	// Name stores the item name
 	Description string
 	// Amount stores the item amount
-	Price float64
+	Price float32
 }
